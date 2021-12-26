@@ -40,3 +40,13 @@ div {
   position: absolute;
   left: 550px;
 }
+
+.profile {
+  position: relative;
+  top: -33px;
+}
+
+.computerpic {
+  width: 10%;
+  height: 175px;
+}
