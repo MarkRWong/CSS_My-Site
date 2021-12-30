@@ -24,6 +24,22 @@ div {
 
 }
 
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  width: 4%;
+  margin: 75px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
 .top-container {
   background-color: #E4F9F5;
   position: relative;
@@ -33,6 +49,12 @@ div {
 .middle-container {
   margin: 100px 0;
 }
+
+.bottom-container {
+  background-color: #E4F9F5;
+  padding: 50px 0 20px;
+}
+
 .top-cloud {
   position: absolute;
 }
@@ -46,7 +68,66 @@ div {
   top: -33px;
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
 .computerpic {
   width: 10%;
-  height: 175px;
+  height: 15%;
+}
+
+.proj_link {
+    color: #32C1CD;
+}
+
+.projectText {
+  width: 35%;
+  margin: auto;
+}
+
+.mail {
+  width: 7%;
+  height: 7%;
+}
+
+.contactMessage {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(linear, left, right, color-stop(0%, #11cdd4), color-stop(100%,#11999e)); /* Chrome,Safari4+ */
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image:  -webkit-gradient(linear, left, right, color-stop(0%, #11cdd4), color-stop(100%,#11999e)); /* Chrome,Safari4+ */
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #40514E;
+  font-size: 0.75rem;
+  padding: 10px 0;
 }
